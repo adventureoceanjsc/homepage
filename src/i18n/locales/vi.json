@@ -1,0 +1,472 @@
+{
+    "nav": {
+        "home": "Trang Chủ",
+        "about": "Về Chúng Tôi",
+        "services": "Dịch Vụ",
+        "projects": "Dự Án",
+        "news": "Tin Tức",
+        "contact": "Liên Hệ"
+    },
+    "hero": {
+        "badge": "Từ năm 2003",
+        "title": "Khơi nguồn thịnh vượng",
+        "subtitle": "Vững bước tương lai",
+        "description": "Tiên phong trong hệ sinh thái kép: <strong>Phát triển Bất động sản</strong> và <strong>Đổi mới Công nghệ cao</strong> (Bán dẫn & CNC).",
+        "cta1": "Khám Phá Hành Trình",
+        "cta2": "Dịch Vụ Của Chúng Tôi"
+    },
+    "story": {
+        "badge": "Thư Ngỏ",
+        "title": "THƯ NGỎ",
+        "salutation": "Kính gửi Quý Khách hàng, Quý Đối tác và Nhà đầu tư,",
+        "p1": "Adventure Ocean ra đời với khát vọng kiến tạo giá trị dẫn đầu thông qua hệ sinh thái kép: kết hợp Bất động sản Nghỉ dưỡng - Thương mại và Công nghệ cao (Bán dẫn & CNC). Đây là nền tảng chiến lược mang lại cơ hội tăng trưởng dài hạn và bền vững.",
+        "p2": "Lấy Uy tín - Minh bạch làm kim chỉ nam, chúng tôi cam kết mọi dự án đều tuân thủ pháp lý chặt chẽ và đặt lợi ích của đối tác lên hàng đầu. Adventure Ocean trân trọng xem Quý vị là những người bạn đồng hành trên hành trình vươn ra \"đại dương lớn\" của cơ hội và thịnh vượng.",
+        "closing": "Chân thành cảm ơn sự tin tưởng của Quý vị.",
+        "signoff": "Trân trọng,",
+        "signature": "Ban Lãnh đạo",
+        "signatureTitle": "CÔNG TY CỔ PHẦN ADVENTURE OCEAN",
+        "yearsBadge": "20+ Năm",
+        "yearsBadgeDesc": "Phát Triển Bền Vững"
+    },
+    "stats": {
+        "years": "20+",
+        "yearsLabel": "Năm Kinh Nghiệm",
+        "projects": "50+",
+        "projectsLabel": "Dự Án Lớn",
+        "industries": "4",
+        "industriesLabel": "Ngành Cốt Lõi",
+        "clients": "1000+",
+        "clientsLabel": "Khách Hàng Hài Lòng"
+    },
+    "home": {
+        "servicesSection": {
+            "badge": "Lĩnh Vực Hoạt Động",
+            "title": "Trụ Cột Dịch Vụ",
+            "description": "Hệ sinh thái toàn diện kết hợp giữa Bất động sản và Công nghệ cao, kiến tạo giá trị bền vững.",
+            "viewAll": "Xem Tất Cả Dịch Vụ"
+        }
+    },
+    "servicesPage": {
+        "hero": {
+            "badge": "Chuyên Môn Của Chúng Tôi",
+            "title": "Hệ Sinh Thái Kép Xuất Sắc",
+            "description": "Kết nối sự thanh bình của cuộc sống thượng lưu với sự chính xác của đổi mới công nghệ cao. Chúng tôi kiến tạo giá trị trên bốn trụ cột chiến lược."
+        },
+        "sidebar": {
+            "title": "Các Trụ Cột Dịch Vụ",
+            "consultationTitle": "Cần Sự Tư Vấn?",
+            "consultationDesc": "Các chuyên gia của chúng tôi sẵn sàng thảo luận về nhu cầu đầu tư hoặc hợp tác của bạn.",
+            "contactSupport": "Liên Hệ Hỗ Trợ"
+        },
+        "items": {
+            "realEstate": {
+                "id": "realEstate",
+                "number": "01",
+                "title": "Phát triển & Kinh doanh Bất động sản",
+                "summary": "Sở hữu quỹ đất vàng và mô hình kinh doanh nghỉ dưỡng - thương mại đột phá, mang lại giá trị gia tăng bền vững.",
+                "subServices": [
+                    {
+                        "title": "Bất động sản Resort & Du lịch",
+                        "description": "Phát triển, môi giới và phân phối các dự án biệt thự biển, condotel, khu nghỉ dưỡng cao cấp."
+                    },
+                    {
+                        "title": "Dự án Thương mại",
+                        "description": "Đầu tư, phát triển và quản lý các dự án Trung tâm Thương mại và Văn phòng cho thuê."
+                    },
+                    {
+                        "title": "Dịch vụ hỗ trợ",
+                        "description": "Quản lý vận hành khu nghỉ dưỡng/TTTM, Tư vấn chuyển nhượng BĐS cao cấp."
+                    }
+                ],
+                "highlight": {
+                    "label": "Điểm nhấn",
+                    "text": "Sở hữu các quỹ đất vàng và mô hình kinh doanh nghỉ dưỡng/thương mại đột phá."
+                }
+            },
+            "highTech": {
+                "id": "highTech",
+                "number": "02",
+                "title": "Công nghệ cao & Bán dẫn CNC",
+                "summary": "Tiên phong đầu tư vào chuỗi cung ứng Bán dẫn (OSAT) và Công nghệ cơ khí chính xác (CNC) phục vụ công nghiệp hỗ trợ.",
+                "subServices": [
+                    {
+                        "title": "Nghiên cứu & Sản xuất Bán dẫn",
+                        "description": "Đầu tư vào các chuỗi cung ứng linh kiện, thiết bị và giải pháp Bán dẫn."
+                    },
+                    {
+                        "title": "Công nghệ CNC",
+                        "description": "Phát triển và cung cấp các giải pháp CNC và máy móc gia công chính xác cao."
+                    },
+                    {
+                        "title": "Ứng dụng Công nghệ",
+                        "description": "Triển khai các giải pháp Smart City/Smart Home tích hợp trong các dự án BĐS của Tập đoàn."
+                    },
+                    {
+                        "title": "Đầu tư Mạo hiểm",
+                        "description": "Tìm kiếm và đầu tư vào các Startup/Dự án Công nghệ có tiềm năng tăng trưởng lớn."
+                    }
+                ]
+            },
+            "infrastructure": {
+                "id": "infrastructure",
+                "number": "03",
+                "title": "Đầu tư phát triển cơ sở hạ tầng khu, Cụm công nghiệp",
+                "summary": "Kiến tạo bệ phóng vững chắc cho doanh nghiệp thông qua hạ tầng khu công nghiệp đồng bộ, hiện đại và vị trí chiến lược.",
+                "vision": {
+                    "label": "Tầm nhìn",
+                    "text": "Kiến tạo bệ phóng vững chắc cho sự thịnh vượng của doanh nghiệp thông qua hạ tầng đồng bộ, hiện đại và vị trí chiến lược."
+                },
+                "goal": {
+                    "label": "Mục tiêu",
+                    "text": "Tối ưu hóa chi phí vận hành, kết nối chuỗi cung ứng toàn cầu và thúc đẩy kinh tế địa phương."
+                }
+            },
+            "consulting": {
+                "id": "consulting",
+                "number": "04",
+                "title": "Tư vấn Đầu tư & Pháp lý",
+                "summary": "Cung cấp giải pháp trọn gói, thẩm định giá và tư vấn pháp lý chuyên sâu cho các nhà đầu tư trong và ngoài nước.",
+                "subServices": [
+                    {
+                        "title": "Giải pháp trọn gói",
+                        "description": "Tư vấn giải pháp cho nhà đầu tư muốn phát triển các dự án Bất động sản tại Việt Nam."
+                    },
+                    {
+                        "title": "Thẩm định & Pháp lý",
+                        "description": "Thẩm định giá, kiểm tra quy hoạch và pháp lý dự án Bất động sản."
+                    },
+                    {
+                        "title": "Sở hữu trí tuệ",
+                        "description": "Tư vấn thủ tục pháp lý liên quan đến Bất động sản và sở hữu trí tuệ công nghệ."
+                    }
+                ]
+            }
+        },
+        "synergy": {
+            "badge": "Sức Mạnh Hợp Nhất",
+            "title": "Cộng Hưởng Hệ Sinh Thái",
+            "description": "Hai trụ cột của chúng tôi không tách biệt; chúng là những động cơ tăng trưởng liên kết với nhau. Adventure Ocean tận dụng sự ổn định của Bất động sản để thúc đẩy sự đổi mới của Công nghệ cao, tạo ra một chu kỳ giá trị tự bền vững.",
+            "left": {
+                "title": "Tài Sản Nền Tảng",
+                "desc": "Bất động sản cung cấp cơ sở hạ tầng vật lý (Khu công nghiệp) và sự ổn định vốn tài chính cần thiết cho đầu tư công nghệ dài hạn."
+            },
+            "middle": {
+                "label": "Trao Đổi Giá Trị"
+            },
+            "right": {
+                "title": "Động Cơ Đổi Mới",
+                "desc": "Sản xuất Công nghệ cao mang lại các giải pháp thông minh cho các tài sản của chúng tôi và thúc đẩy giá trị đất công nghiệp tăng lên thông qua nhu cầu việc làm và cơ sở hạ tầng."
+            }
+        }
+    },
+    "projectStats": {
+        "view": "Tầm Nhìn",
+        "capacity": "Sức Chứa",
+        "style": "Phong Cách",
+        "scale": "Quy Mô",
+        "greenSpace": "Mảng Xanh",
+        "concept": "Ý Tưởng",
+        "energy": "Năng Lượng"
+    },
+    "projects": {
+        "pageTitle": "Kho Dự Án Adventure Ocean",
+        "metaDescription": "Adventure Ocean tự hào giới thiệu bộ sưu tập các dự án biểu tượng.",
+        "hero": {
+            "badge": "Bộ Sưu Tập Kiệt Tác",
+            "title": "DẤU ẤN KIẾN TẠO - VỮNG BƯỚC TƯƠNG LAI",
+            "description": "Adventure Ocean tự hào giới thiệu bộ sưu tập các dự án biểu tượng, nơi kết tinh của kiến trúc tinh tế, thiên nhiên hùng vĩ và công nghệ tiên phong. Mỗi công trình là một di sản bền vững, kiến tạo giá trị thịnh vượng cho cộng đồng và nhà đầu tư."
+        },
+        "featured": {
+            "badge": "Danh Mục Đầu Tư",
+            "title": "Dự Án Nổi Bật",
+            "description": "Bộ sưu tập kiệt tác nơi kiến trúc gặp gỡ đổi mới"
+        },
+        "filters": {
+            "all": "Tất Cả Dự Án",
+            "resort": "Nghỉ Dưỡng & Khách Sạn",
+            "residential": "Dân Cư",
+            "industrial": "Công Nghiệp"
+        },
+        "statsLabels": {
+            "view": "Tầm Nhìn",
+            "capacity": "Sức Chứa",
+            "style": "Phong Cách",
+            "scale": "Quy Mô",
+            "greenSpace": "Mảng Xanh",
+            "concept": "Ý Tưởng",
+            "energy": "Năng Lượng"
+        },
+        "viewDetails": "Xem Chi Tiết",
+        "viewProject": "Xem Dự Án",
+        "viewAll": "Xem Tất Cả Dự Án",
+        "items": {
+            "seaFlower": {
+                "title": "Sea Flower Resort",
+                "badge": "Nghỉ Dưỡng",
+                "description": "Thiên đường nghỉ dưỡng ven biển đẳng cấp, nơi vẻ đẹp hoang sơ của đại dương hòa quyện cùng tiện ích 5 sao. Trải nghiệm không gian sống xanh và dịch vụ chăm sóc sức khỏe toàn diện.",
+                "stats": {
+                    "view": "Hướng Biển",
+                    "capacity": "200 Phòng"
+                }
+            },
+            "songXanh": {
+                "title": "Song Xanh Village",
+                "badge": "Biệt Thự Cao Cấp",
+                "description": "Kiến trúc Châu Âu cổ điển giữa lòng thiên nhiên nhiệt đới. Song Xanh Village mang đến phong cách sống thượng lưu với những căn biệt thự ven sông biệt lập và an ninh tuyệt đối.",
+                "stats": {
+                    "style": "Châu Âu",
+                    "scale": "120 Biệt Thự"
+                }
+            },
+            "maiVang": {
+                "title": "Vườn Mai Vàng",
+                "badge": "Di Sản Văn Hóa",
+                "description": "Dự án bảo tồn văn hóa độc đáo, tôn vinh loài hoa mai vàng truyền thống. Không gian tĩnh tại mang đậm hồn Việt, nơi các giá trị di sản được gìn giữ và phát huy.",
+                "stats": {
+                    "greenSpace": "70% Mảng Xanh",
+                    "concept": "Di Sản"
+                }
+            },
+            "sunrise": {
+                "title": "Khu Công Nghiệp Sunrise",
+                "badge": "Công Nghiệp CNC",
+                "description": "Khu công nghiệp xanh thông minh với hạ tầng đồng bộ. Điểm đến lý tưởng cho các tập đoàn công nghệ cao với giải pháp logistics toàn diện và hệ sinh thái bền vững.",
+                "stats": {
+                    "scale": "500 Hecta",
+                    "energy": "Tái Tạo"
+                }
+            }
+        },
+        "cta": {
+            "badge": "Hợp Tác Cùng Sự Xuất Sắc",
+            "title": "Sẵn Sàng Đầu Tư Vào Tương Lai?",
+            "description": "Tải xuống hồ sơ dự án chi tiết hoặc đặt lịch tư vấn với các chuyên gia đầu tư của chúng tôi để khám phá cơ hội.",
+            "download": "Tải Brochure",
+            "contact": "Liên Hệ Tư Vấn"
+        }
+    },
+    "testimonial": {
+        "quote": "Trong mỗi dự án chúng tôi thực hiện, chúng tôi nhìn xa hơn những công trình vật chất và thành tựu công nghệ. Chúng tôi hình dung những cộng đồng phát triển mạnh mẽ, các ngành công nghiệp tiến bộ, và một quốc gia ngày càng mạnh mẽ thông qua đổi mới và phát triển bền vững.",
+        "source": "Chủ Tịch HĐQT"
+    },
+    "cta": {
+        "title": "Sẵn Sàng Hợp Tác?",
+        "description": "Liên hệ với chúng tôi ngay hôm nay để bắt đầu hành trình đầu tư thịnh vượng cùng Adventure Ocean.",
+        "contactUs": "Liên Hệ Ngay",
+        "viewPortfolio": "Xem Hồ Sơ Năng Lực"
+    },
+    "blog": {
+        "pageTitle": "Thông Tin & Xu Hướng Thị Trường",
+        "description": "Tin tức mới nhất và nhận định từ Adventure Ocean",
+        "headerTitle": "Thông Tin & <br class=\"hidden md:block\" /> Xu Hướng Thị Trường",
+        "headerSubtitle": "Luôn dẫn đầu xu hướng trong phát triển Bất động sản và Đổi mới Công nghệ cao.",
+        "readMore": "Đọc thêm",
+        "sidebar": {
+            "searchPlaceholder": "Tìm kiếm...",
+            "mostRead": "Đọc nhiều nhất",
+            "subscribeTitle": "Đăng ký nhận tin",
+            "subscribeDesc": "Nhận thông tin cập nhật thị trường và tin tức công ty mới nhất vào hộp thư của bạn.",
+            "emailPlaceholder": "Địa chỉ email của bạn",
+            "subscribeButton": "Đăng ký",
+            "categories": "Danh mục"
+        }
+    },
+    "footer": {
+        "description": "Tiên phong tạo dựng giá trị thông qua hệ sinh thái kép: Bất động sản và Đổi mới Công nghệ cao.",
+        "navigation": "Điều Hướng",
+        "contact": "Liên Hệ",
+        "viAddressLabel": "Địa chỉ trụ sở chính:",
+        "viAddress": "C10/68 ấp 5, Đường Phạm Hùng, Xã Bình Hưng, Thành phố Hồ Chí Minh, Việt Nam",
+        "enAddressLabel": "English Address:",
+        "enAddress": "C10/68 Hamlet 5, Pham Hung Street, Binh Hung Commune, Ho Chi Minh City, Vietnam.",
+        "hotline": "028.77758.666",
+        "email": "info@adventureocean.vn",
+        "website": "http://adventureocean.vn",
+        "fanpage": "https://facebook.com/AdventureOceanJSC",
+        "youtube": "https://youtube.com/@AdventureOceanJSC",
+        "copyright": "© 2026 Adventure Ocean JSC. All rights reserved.",
+        "designedByLabel": "Website thiết kế bởi",
+        "privacy": "Chính Sách Bảo Mật",
+        "terms": "Điều Khoản Dịch Vụ"
+    },
+    "about": {
+        "hero": {
+            "badge": "VỀ CHÚNG TÔI",
+            "title": "Tiên Phong Tương Lai <br /> của <span class=\"text-secondary\">Kiến Tạo Giá Trị</span>",
+            "description": "Adventure Ocean là tập đoàn đa ngành, kết nối giữa bất động sản cao cấp và đổi mới công nghệ cao."
+        },
+        "visionTitle": "Tầm Nhìn Của Chủ Tịch",
+        "visionQuote": "Trong mỗi dự án chúng tôi thực hiện, chúng tôi nhìn xa hơn những công trình vật chất và thành tựu công nghệ. Chúng tôi hình dung những cộng đồng phát triển mạnh mẽ, các ngành công nghiệp tiến bộ, và một quốc gia ngày càng mạnh mẽ thông qua đổi mới và phát triển bền vững.",
+        "leadership": {
+            "badge": "Lãnh Đạo Của Chúng Tôi",
+            "title": "Hội Đồng Quản Trị"
+        },
+        "values": {
+            "title": "TẦM NHÌN, SỨ MỆNH & GIÁ TRỊ CỐT LÕI",
+            "vision": {
+                "title": "TẦM NHÌN",
+                "content": "Trở thành Tập đoàn hàng đầu khu vực, dẫn dắt xu hướng đầu tư tích hợp giữa Bất động sản giá trị cao và Công nghệ chiến lược, là cầu nối tin cậy đưa các nhà đầu tư đến với những \"đại dương xanh\" lợi nhuận đột phá."
+            },
+            "mission": {
+                "title": "SỨ MỆNH",
+                "customers": {
+                    "title": "Đối với khách hàng/Nhà đầu tư",
+                    "content": "Cung cấp giải pháp an cư/nghỉ dưỡng lý tưởng, đầu tư sinh lời an toàn, minh bạch, đồng thời mở ra cánh cửa tiếp cận vào các dự án công nghệ tiềm năng."
+                },
+                "partners": {
+                    "title": "Đối với đối tác",
+                    "content": "Hợp tác cùng phát triển, chia sẻ lợi ích bền vững trên cơ sở đổi mới và uy tín."
+                }
+            },
+            "coreValues": {
+                "title": "GIÁ TRỊ CỐT LÕI",
+                "integrity": {
+                    "title": "Tín (Integrity)",
+                    "content": "Pháp lý minh bạch, giữ đúng cam kết trong cả BĐS và Công nghệ."
+                },
+                "dedication": {
+                    "title": "Tâm (Dedication)",
+                    "content": "Tư vấn tận tâm, đặt lợi ích khách hàng lên hàng đầu."
+                },
+                "vision": {
+                    "title": "Tầm (Vision)",
+                    "content": "Tầm nhìn chiến lược, đón đầu xu hướng quy hoạch và công nghệ."
+                },
+                "speed": {
+                    "title": "Tốc (Speed)",
+                    "content": "Tốc độ trong giao dịch và ứng dụng công nghệ."
+                }
+            }
+        },
+        "team": [
+            {
+                "name": "Trần Trang Nhã",
+                "role": "Giám đốc Điều hành (COO)",
+                "email": "Nhatran@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-TrangNha.jpeg",
+                "bio": "Chuyên gia với sự tận tâm và kinh nghiệm phong phú trong điều hành doanh nghiệp."
+            },
+            {
+                "name": "Nguyễn Thị Tường Vi",
+                "role": "Giám đốc Tài chính (CFO)",
+                "email": "Vinguyen@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-TuongVi-01.jpeg",
+                "bio": "Quản lý chiến lược tài chính, đảm bảo sự phát triển bền vững và minh bạch."
+            },
+            {
+                "name": "Võ Mạnh Đạt",
+                "role": "Giám đốc Nhân sự (CHRO)",
+                "email": "Datvo@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-ManhDat.jpeg",
+                "bio": "Xây dựng văn hóa doanh nghiệp và phát triển nguồn nhân lực chất lượng cao."
+            },
+            {
+                "name": "Võ Văn Quang",
+                "role": "Giám đốc Dự án",
+                "email": "Quangvo@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-VanQuang.jpeg",
+                "bio": "Dẫn dắt các dự án trọng điểm với tiêu chuẩn chất lượng và tiến độ khắt khe."
+            },
+            {
+                "name": "Võ Trần Duy Trọng",
+                "role": "Giám đốc Marketing (CMO)",
+                "email": "Trongvo@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-DuyTrong.jpeg",
+                "bio": "Định vị thương hiệu và xây dựng chiến lược tiếp cận thị trường sáng tạo."
+            },
+            {
+                "name": "Huỳnh Đăng Giang",
+                "role": "Giám đốc Kĩ thuật (CTO)",
+                "email": "Gianghuynh@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-DangGiang.jpeg",
+                "bio": "Tiên phong trong ứng dụng công nghệ mới và chuyển đổi số cho tập đoàn."
+            }
+        ],
+        "orgChart": {
+            "title": "Sơ Đồ Tổ Chức Ban Quản Lý Dự Án",
+            "level1": {
+                "role": "Chủ tịch - Tổng Giám đốc",
+                "desc": "Lãnh đạo cao nhất"
+            },
+            "level2": {
+                "title": "Ban Giám đốc điều hành Dự án",
+                "roles": [
+                    "Giám đốc Thiết kế",
+                    "Phó Giám đốc Thi công",
+                    "Phó Giám đốc Tài chính",
+                    "Phó Giám đốc Đầu tư & Pháp lý"
+                ]
+            },
+            "level3": {
+                "title": "Các Phòng ban & Xí nghiệp nghiệp vụ",
+                "roles": [
+                    "Xí nghiệp Thiết kế",
+                    "Phòng Kế hoạch",
+                    "Phòng Kĩ thuật Thi công",
+                    "Phòng Kế toán",
+                    "Phòng Vật tư"
+                ]
+            },
+            "level4": {
+                "title": "Các Đội thi công trực tiếp tại hiện trường",
+                "roles": [
+                    "Đội Cơ giới (1-3)",
+                    "Đội Xây dựng số (1-10)",
+                    "Đội Thi công Thép",
+                    "Đội Điện nước (M&E)"
+                ]
+            }
+        }
+    },
+    "contact": {
+        "badge": "Liên Hệ",
+        "title": "Liên Hệ Với Chúng Tôi",
+        "description": "Sẵn sàng khám phá cơ hội đầu tư hoặc thảo luận về khả năng hợp tác? Đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ bạn.",
+        "form": {
+            "title": "Gửi Tin Nhắn",
+            "name": "Họ và Tên *",
+            "namePlaceholder": "Nguyễn Văn A",
+            "email": "Địa Chỉ Email *",
+            "emailPlaceholder": "nguyen@example.com",
+            "phone": "Số Điện Thoại",
+            "phonePlaceholder": "+84 90 123 4567",
+            "subject": "Chủ Đề *",
+            "subjectPlaceholder": "Chọn chủ đề",
+            "subjects": {
+                "investment": "Hỏi về Đầu tư",
+                "partnership": "Cơ hội Hợp tác",
+                "realEstate": "Dự án Bất động sản",
+                "highTech": "Dịch vụ Công nghệ cao",
+                "other": "Khác"
+            },
+            "message": "Nội dung *",
+            "messagePlaceholder": "Hãy cho chúng tôi biết về yêu cầu của bạn...",
+            "submit": "Gửi Tin Nhắn",
+            "error": "Vui lòng điền đầy đủ các thông tin bắt buộc"
+        },
+        "info": {
+            "title": "Thông Tin Liên Hệ",
+            "address": "Địa Chỉ",
+            "hotline": "Hotline",
+            "email": "Email",
+            "website": "Website"
+        },
+        "follow": {
+            "title": "Theo Dõi Chúng Tôi",
+            "description": "Cập nhật những dự án và tin tức mới nhất từ chúng tôi"
+        }
+    },
+    "common": {
+        "loading": "Đang tải...",
+        "error": "Đã xảy ra lỗi",
+        "success": "Thành công!",
+        "readMore": "Đọc Thêm",
+        "downloadBrochure": "Tải Brochure",
+        "newsletter": "Đăng Ký Nhận Tin",
+        "newsletterPlaceholder": "Nhập email của bạn",
+        "subscribe": "Đăng Ký",
+        "thankYou": "Cảm ơn bạn! Chúng tôi sẽ liên hệ sớm.",
+        "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ",
+        "subscribeSuccess": "Đăng ký nhận tin thành công!"
+    }
+}

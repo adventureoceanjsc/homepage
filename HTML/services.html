@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Adventure Ocean Services Overview</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1c448e", // Deep Royal Blue
+                        secondary: "#ed1c24", // Red accent
+                        "background-light": "#ffffff",
+                        "background-dark": "#0f172a",
+                        "surface-light": "#f8fafc",
+                        "surface-dark": "#1e293b",
+                    },
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"],
+                        sans: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.375rem",
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }.check-list li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        .check-list li::before {
+            content: "check";
+            font-family: 'Material Icons';
+            position: absolute;
+            left: 0;
+            top: 2px;
+            color: #1c448e;font-size: 1.25rem;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 font-sans transition-colors duration-300">
+<nav class="fixed w-full z-50 bg-white/95 dark:bg-background-dark/95 backdrop-blur-sm border-b border-gray-100 dark:border-gray-800 shadow-sm top-0">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+<div class="flex justify-between items-center h-20">
+<div class="absolute top-0 left-4 sm:left-6 lg:left-8 h-32 z-50 flex items-start">
+<div class="bg-white px-8 py-6 flex items-center gap-3 shadow-xl h-full flex-col justify-center border-b-4 border-secondary">
+<span class="material-icons text-primary text-5xl mb-2">tsunami</span>
+<div class="flex flex-col items-center text-center">
+<span class="font-display font-bold text-xl tracking-wider text-primary uppercase leading-none mb-1">Adventure</span>
+<span class="font-sans font-light text-xs tracking-[0.2em] text-primary uppercase leading-none">Ocean</span>
+</div>
+</div>
+</div>
+<div class="flex-shrink-0 w-48 hidden md:block"></div>
+<div class="hidden md:flex items-center space-x-8 ml-auto">
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-300 transition-colors" href="index.html">Home</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-300 transition-colors" href="#">About Us</a>
+<a class="text-sm font-medium text-primary dark:text-blue-300 border-b-2 border-secondary" href="#">Services</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-300 transition-colors" href="#">Projects</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-300 transition-colors" href="#">News</a>
+<a class="px-5 py-2.5 bg-primary hover:bg-blue-800 text-white text-sm font-medium rounded transition-colors shadow-lg shadow-blue-900/20" href="#">Contact</a>
+</div>
+<div class="md:hidden flex items-center ml-auto">
+<button class="text-gray-600 dark:text-gray-300 hover:text-primary">
+<span class="material-icons">menu</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<main class="pt-24">
+<section class="py-20 md:py-28 bg-white dark:bg-background-dark text-center relative overflow-hidden">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-blue-50/50 dark:bg-blue-900/5 -skew-x-12 transform origin-top translate-x-1/4 -z-10"></div>
+<div class="max-w-4xl mx-auto px-4">
+<span class="text-secondary font-bold tracking-widest uppercase text-xs mb-4 block">Our Expertise</span>
+<h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-primary dark:text-white mb-6 leading-tight">
+                    Dual Ecosystem Excellence
+                </h1>
+<p class="text-xl text-gray-500 dark:text-gray-400 font-light max-w-2xl mx-auto leading-relaxed">
+                    Bridging the serenity of luxury living with the precision of high-tech innovation. We engineer value across four strategic pillars.
+                </p>
+</div>
+</section>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-32">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 relative">
+<aside class="hidden lg:block lg:col-span-3 relative">
+<div class="sticky top-32">
+<nav aria-label="Services navigation">
+<h3 class="font-display text-xl font-bold text-gray-900 dark:text-white mb-6">Service Pillars</h3>
+<ul class="space-y-1 border-l border-gray-200 dark:border-gray-700">
+<li>
+<a class="group flex items-center pl-4 py-2 text-sm font-medium border-l-2 border-transparent hover:border-secondary hover:text-primary text-gray-500 transition-all duration-300" href="#resort">
+<span class="mr-2 opacity-0 group-hover:opacity-100 transition-opacity text-secondary">•</span> Resort Real Estate
+                                    </a>
+</li>
+<li>
+<a class="group flex items-center pl-4 py-2 text-sm font-medium border-l-2 border-transparent hover:border-secondary hover:text-primary text-gray-500 transition-all duration-300" href="#commercial">
+<span class="mr-2 opacity-0 group-hover:opacity-100 transition-opacity text-secondary">•</span> Commercial Real Estate
+                                    </a>
+</li>
+<li>
+<a class="group flex items-center pl-4 py-2 text-sm font-medium border-l-2 border-transparent hover:border-secondary hover:text-primary text-gray-500 transition-all duration-300" href="#semiconductors">
+<span class="mr-2 opacity-0 group-hover:opacity-100 transition-opacity text-secondary">•</span> Semiconductors
+                                    </a>
+</li>
+<li>
+<a class="group flex items-center pl-4 py-2 text-sm font-medium border-l-2 border-transparent hover:border-secondary hover:text-primary text-gray-500 transition-all duration-300" href="#cnc">
+<span class="mr-2 opacity-0 group-hover:opacity-100 transition-opacity text-secondary">•</span> CNC Manufacturing
+                                    </a>
+</li>
+</ul>
+</nav>
+<div class="mt-12 p-6 bg-surface-light dark:bg-surface-dark rounded-lg border border-gray-100 dark:border-gray-700">
+<h4 class="font-display font-bold text-primary dark:text-blue-300 mb-2">Need Consultation?</h4>
+<p class="text-xs text-gray-500 mb-4">Our experts are ready to discuss your investment or partnership needs.</p>
+<a class="text-xs font-bold text-secondary uppercase tracking-wider hover:underline" href="#">Contact Support →</a>
+</div>
+</div>
+</aside>
+<div class="col-span-12 lg:col-span-9 space-y-32">
+<section class="scroll-mt-32" id="resort">
+<div class="flex items-center gap-3 mb-6">
+<span class="text-4xl text-gray-200 dark:text-gray-700 font-display font-bold">01</span>
+<div class="h-px flex-1 bg-gray-200 dark:bg-gray-700"></div>
+</div>
+<h2 class="font-display text-4xl md:text-5xl font-bold text-primary dark:text-white mb-6">Resort Real Estate</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 font-light leading-relaxed mb-10 max-w-3xl">
+                            We create world-class coastal destinations that harmonize with nature. Our resorts are designed not just as vacation spots, but as sustainable ecosystems that preserve the local landscape while offering unparalleled luxury and wellness experiences.
+                        </p>
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-xl border border-gray-100 dark:border-gray-700">
+<h3 class="font-sans font-bold text-lg text-gray-900 dark:text-white mb-6 uppercase tracking-wider text-xs">Key Capabilities</h3>
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-gray-600 dark:text-gray-400 check-list">
+<li>Luxury Coastal Villas &amp; Private Residences</li>
+<li>Integrated Wellness &amp; Spa Facilities</li>
+<li>Sustainable Eco-Resort Planning</li>
+<li>5-Star Hospitality Management</li>
+<li>Marine Conservation Zones</li>
+<li>High-Yield Investment Programs</li>
+</ul>
+</div>
+</section>
+<section class="scroll-mt-32" id="commercial">
+<div class="flex items-center gap-3 mb-6">
+<span class="text-4xl text-gray-200 dark:text-gray-700 font-display font-bold">02</span>
+<div class="h-px flex-1 bg-gray-200 dark:bg-gray-700"></div>
+</div>
+<h2 class="font-display text-4xl md:text-5xl font-bold text-primary dark:text-white mb-6">Commercial Real Estate</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 font-light leading-relaxed mb-10 max-w-3xl">
+                            Developing the backbone of modern commerce. From Grade-A office towers to bustling retail hubs, our commercial projects are strategically located to foster business growth and community connectivity in emerging economic zones.
+                        </p>
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-xl border border-gray-100 dark:border-gray-700">
+<h3 class="font-sans font-bold text-lg text-gray-900 dark:text-white mb-6 uppercase tracking-wider text-xs">Key Capabilities</h3>
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-gray-600 dark:text-gray-400 check-list">
+<li>Mixed-Use Urban Complexes</li>
+<li>Smart Office Buildings (LEED Certified)</li>
+<li>Modern Logistics &amp; Warehousing</li>
+<li>Retail Shopping Centers &amp; Entertainment Hubs</li>
+<li>Business Park Development</li>
+<li>Property Management Solutions</li>
+</ul>
+</div>
+</section>
+<section class="scroll-mt-32" id="semiconductors">
+<div class="flex items-center gap-3 mb-6">
+<span class="text-4xl text-gray-200 dark:text-gray-700 font-display font-bold">03</span>
+<div class="h-px flex-1 bg-gray-200 dark:bg-gray-700"></div>
+</div>
+<h2 class="font-display text-4xl md:text-5xl font-bold text-primary dark:text-white mb-6">Semiconductors</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 font-light leading-relaxed mb-10 max-w-3xl">
+                            Powering the digital future. As a pioneer in the regional high-tech sector, Adventure Ocean invests heavily in semiconductor assembly and testing (OSAT), ensuring the global supply chain remains robust and efficient.
+                        </p>
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-xl border border-gray-100 dark:border-gray-700">
+<h3 class="font-sans font-bold text-lg text-gray-900 dark:text-white mb-6 uppercase tracking-wider text-xs">Key Capabilities</h3>
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-gray-600 dark:text-gray-400 check-list">
+<li>IC Packaging &amp; Assembly</li>
+<li>Advanced Wafer Testing</li>
+<li>Micro-Electro-Mechanical Systems (MEMS)</li>
+<li>Power Management ICs</li>
+<li>Automotive Electronics Components</li>
+<li>R&amp;D Cleanroom Facilities</li>
+</ul>
+</div>
+</section>
+<section class="scroll-mt-32" id="cnc">
+<div class="flex items-center gap-3 mb-6">
+<span class="text-4xl text-gray-200 dark:text-gray-700 font-display font-bold">04</span>
+<div class="h-px flex-1 bg-gray-200 dark:bg-gray-700"></div>
+</div>
+<h2 class="font-display text-4xl md:text-5xl font-bold text-primary dark:text-white mb-6">CNC Manufacturing</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 font-light leading-relaxed mb-10 max-w-3xl">
+                            Where precision meets scale. Our Computer Numerical Control (CNC) division specializes in ultra-precision machining for aerospace, medical, and industrial automation sectors, delivering components with micron-level tolerance.
+                        </p>
+<div class="bg-surface-light dark:bg-surface-dark p-8 rounded-xl border border-gray-100 dark:border-gray-700">
+<h3 class="font-sans font-bold text-lg text-gray-900 dark:text-white mb-6 uppercase tracking-wider text-xs">Key Capabilities</h3>
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-gray-600 dark:text-gray-400 check-list">
+<li>5-Axis Precision Machining</li>
+<li>High-Speed Milling &amp; Turning</li>
+<li>Custom Mold &amp; Die Making</li>
+<li>Aerospace Component Fabrication</li>
+<li>Medical Device Prototyping</li>
+<li>Automated Quality Control (CMM)</li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+</div>
+<section class="py-24 bg-surface-light dark:bg-surface-dark border-t border-gray-100 dark:border-gray-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="text-secondary font-bold tracking-widest uppercase text-xs">The Power of Integration</span>
+<h2 class="font-display text-3xl md:text-4xl font-bold text-primary dark:text-white mt-3 mb-6">Ecosystem Synergy</h2>
+<p class="text-gray-600 dark:text-gray-400">
+                        Our dual pillars are not isolated; they are interconnected engines of growth. Adventure Ocean leverages the stability of Real Estate to fuel the innovation of High-Tech, creating a self-sustaining cycle of value.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+<div class="p-8 bg-white dark:bg-background-dark rounded-xl shadow-sm text-center border-t-4 border-primary">
+<span class="material-icons text-5xl text-primary mb-4">domain</span>
+<h3 class="font-display text-xl font-bold mb-3">Foundational Asset</h3>
+<p class="text-sm text-gray-500">
+                            Real Estate provides the physical infrastructure (Industrial Parks) and financial capital stability required for long-term tech investment.
+                        </p>
+</div>
+<div class="flex flex-col items-center justify-center text-secondary">
+<span class="material-icons text-4xl animate-pulse">sync_alt</span>
+<div class="h-px w-full bg-gray-200 dark:bg-gray-700 my-4 md:hidden"></div> 
+<span class="text-xs font-bold uppercase tracking-widest mt-2">Value Exchange</span>
+</div>
+<div class="p-8 bg-white dark:bg-background-dark rounded-xl shadow-sm text-center border-t-4 border-secondary">
+<span class="material-icons text-5xl text-secondary mb-4">memory</span>
+<h3 class="font-display text-xl font-bold mb-3">Innovation Engine</h3>
+<p class="text-sm text-gray-500">
+                            High-Tech manufacturing brings smart solutions to our properties and drives industrial land value appreciation through employment and infrastructure demands.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-primary text-white border-t-4 border-secondary">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-icons text-3xl">tsunami</span>
+<div class="flex flex-col">
+<span class="font-display font-bold text-lg tracking-wider uppercase leading-none">Adventure</span>
+<span class="font-sans font-light text-xs tracking-[0.2em] opacity-80 uppercase leading-none">Ocean</span>
+</div>
+</div>
+<p class="text-blue-100 text-sm leading-relaxed mb-4">
+                        Pioneering value through a dual ecosystem of Real Estate and High-Tech innovation.
+                    </p>
+<div class="flex space-x-4">
+<a class="text-blue-200 hover:text-white" href="#"><span class="material-icons text-lg">facebook</span></a>
+<a class="text-blue-200 hover:text-white" href="#"><span class="material-icons text-lg">language</span></a>
+<a class="text-blue-200 hover:text-white" href="#"><span class="material-icons text-lg">email</span></a>
+</div>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg mb-4">Navigation</h4>
+<ul class="space-y-2 text-sm text-blue-100">
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="index.html">Home</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#about">About Us</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#fields">Core Fields</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">Leadership</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg mb-4">Services</h4>
+<ul class="space-y-2 text-sm text-blue-100">
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">Resort Real Estate</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">Commercial Real Estate</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">Semiconductors</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">CNC Manufacturing</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg mb-4">Contact</h4>
+<ul class="space-y-2 text-sm text-blue-100">
+<li class="flex items-start gap-2">
+<span class="material-icons text-sm mt-1">location_on</span>
+<span>123 Ocean Drive, Financial District, Ho Chi Minh City</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-icons text-sm">phone</span>
+<span>+84 28 1234 5678</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-icons text-sm">email</span>
+<span>contact@adventure-ocean.com</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="bg-blue-900/50 py-4">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-xs text-blue-300">
+<p>© 2023 Adventure Ocean JSC. All rights reserved.</p>
+<div class="space-x-4 mt-2 md:mt-0">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>

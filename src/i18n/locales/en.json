@@ -1,0 +1,472 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "projects": "Projects",
+        "news": "News",
+        "contact": "Contact"
+    },
+    "hero": {
+        "badge": "Since 2003",
+        "title": "Unlocking Prosperity",
+        "subtitle": "Building the Future",
+        "description": "Pioneering the dual ecosystem of <strong>Real Estate Development</strong> and <strong>High-Tech Innovation</strong> (Semiconductors & CNC).",
+        "cta1": "Discover Our Journey",
+        "cta2": "Our Services"
+    },
+    "story": {
+        "badge": "Welcome Letter",
+        "title": "WELCOME",
+        "salutation": "Dear Valued Customers, Partners, and Investors,",
+        "p1": "Adventure Ocean was established with the ambition to create pioneering value through a dual ecosystem: combining Resort & Commercial Real Estate with High-Tech (Semiconductors & CNC). This strategic foundation is designed to deliver long-term and sustainable growth.",
+        "p2": "Guided by Integrity and Transparency, we are committed to strict legal compliance in every project, always prioritizing our partners' interests. Adventure Ocean views you not merely as clients, but as companions on our journey toward a \"vast ocean\" of opportunity and prosperity.",
+        "closing": "Thank you for your continued trust and partnership.",
+        "signoff": "Sincerely,",
+        "signature": "The Leadership",
+        "signatureTitle": "ADVENTURE OCEAN",
+        "yearsBadge": "20+ Years",
+        "yearsBadgeDesc": "Sustainable Growth"
+    },
+    "stats": {
+        "years": "20+",
+        "yearsLabel": "Years Experience",
+        "projects": "50+",
+        "projectsLabel": "Major Projects",
+        "industries": "4",
+        "industriesLabel": "Core Industries",
+        "clients": "1000+",
+        "clientsLabel": "Satisfied Clients"
+    },
+    "home": {
+        "servicesSection": {
+            "badge": "Our Expertise",
+            "title": "Service Pillars",
+            "description": "A comprehensive ecosystem combining Real Estate and High-Tech, creating sustainable value.",
+            "viewAll": "View All Services"
+        }
+    },
+    "servicesPage": {
+        "hero": {
+            "badge": "Our Expertise",
+            "title": "Dual Ecosystem Excellence",
+            "description": "Bridging the serenity of luxury living with the precision of high-tech innovation. We engineer value across four strategic pillars."
+        },
+        "sidebar": {
+            "title": "Service Pillars",
+            "consultationTitle": "Need Consultation?",
+            "consultationDesc": "Our experts are ready to discuss your investment or partnership needs.",
+            "contactSupport": "Contact Support"
+        },
+        "items": {
+            "realEstate": {
+                "id": "realEstate",
+                "number": "01",
+                "title": "Real Estate Development & Business",
+                "summary": "Possessing prime land banks and pioneering breakthrough resort/commercial business models for sustainable growth.",
+                "subServices": [
+                    {
+                        "title": "Resort & Tourism Real Estate",
+                        "description": "Developing, brokering, and distributing coastal villas, condotels, and luxury resort complexes."
+                    },
+                    {
+                        "title": "Commercial Projects",
+                        "description": "Investing in, developing, and managing shopping malls and commercial office spaces for lease."
+                    },
+                    {
+                        "title": "Support Services",
+                        "description": "Operational management of resorts and commercial centers; Consultancy for high-end real estate transfers."
+                    }
+                ],
+                "highlight": {
+                    "label": "Key Highlights",
+                    "text": "Possessing prime land banks and pioneering breakthrough resort and commercial business models."
+                }
+            },
+            "highTech": {
+                "id": "highTech",
+                "number": "02",
+                "title": "High-Tech & CNC Semiconductors",
+                "summary": "Pioneering investment in Semiconductor supply chain (OSAT) and Precision Mechanical Technology (CNC) for supporting industries.",
+                "subServices": [
+                    {
+                        "title": "Semiconductor Research & Manufacturing",
+                        "description": "Investing in the supply chain for components, equipment, and Semiconductor solutions."
+                    },
+                    {
+                        "title": "CNC Technology",
+                        "description": "Developing and providing CNC (Computer Numerical Control) solutions and high-precision machining machinery."
+                    },
+                    {
+                        "title": "Technology Application",
+                        "description": "Deploying integrated Smart City and Smart Home solutions within the Group's real estate projects."
+                    },
+                    {
+                        "title": "Venture Capital",
+                        "description": "Identifying and investing in high-growth Tech Startups and projects."
+                    }
+                ]
+            },
+            "infrastructure": {
+                "id": "infrastructure",
+                "number": "03",
+                "title": "Industrial Park & Cluster Infrastructure Development",
+                "summary": "Creating a solid launchpad for corporate prosperity through comprehensive, modern industrial park infrastructure and strategic locations.",
+                "vision": {
+                    "label": "Vision",
+                    "text": "Creating a solid launchpad for corporate prosperity through comprehensive, modern infrastructure solutions in strategic locations."
+                },
+                "goal": {
+                    "label": "Goal",
+                    "text": "Optimizing operational costs, connecting with global supply chains, and fostering local economic development."
+                }
+            },
+            "consulting": {
+                "id": "consulting",
+                "number": "04",
+                "title": "Investment & Legal Consulting",
+                "summary": "Providing full-package solutions, valuation, and in-depth legal consulting for domestic and international investors.",
+                "subServices": [
+                    {
+                        "title": "Full-package solutions",
+                        "description": "Providing solutions for investors seeking to develop Real Estate projects in Vietnam."
+                    },
+                    {
+                        "title": "Due Diligence",
+                        "description": "Valuation, planning verification, and legal due diligence for Real Estate projects."
+                    },
+                    {
+                        "title": "Intellectual Property",
+                        "description": "Consulting on legal procedures related to Real Estate and Technology Intellectual Property."
+                    }
+                ]
+            }
+        },
+        "synergy": {
+            "badge": "The Power of Integration",
+            "title": "Ecosystem Synergy",
+            "description": "Our dual pillars are not isolated; they are interconnected engines of growth. Adventure Ocean leverages the stability of Real Estate to fuel the innovation of High-Tech, creating a self-sustaining cycle of value.",
+            "left": {
+                "title": "Foundational Asset",
+                "desc": "Real Estate provides the physical infrastructure (Industrial Parks) and financial capital stability required for long-term tech investment."
+            },
+            "middle": {
+                "label": "Value Exchange"
+            },
+            "right": {
+                "title": "Innovation Engine",
+                "desc": "High-Tech manufacturing brings smart solutions to our properties and drives industrial land value appreciation through employment and infrastructure demands."
+            }
+        }
+    },
+    "projectStats": {
+        "view": "View",
+        "capacity": "Capacity",
+        "style": "Style",
+        "scale": "Scale",
+        "greenSpace": "Green Space",
+        "concept": "Concept",
+        "energy": "Energy"
+    },
+    "projects": {
+        "pageTitle": "Adventure Ocean Project Showcase",
+        "metaDescription": "Adventure Ocean proudly presents a collection of iconic projects.",
+        "hero": {
+            "badge": "Masterpiece Collection",
+            "title": "BUILDING LEGACIES - STEPPING INTO THE FUTURE",
+            "description": "Adventure Ocean proudly presents a collection of iconic projects, where exquisite architecture meets majestic nature and pioneering technology. Each structure is a sustainable legacy, creating prosperous value for the community and investors."
+        },
+        "featured": {
+            "badge": "Portfolio",
+            "title": "Featured Projects",
+            "description": "Masterpiece collection where architecture meets innovation"
+        },
+        "filters": {
+            "all": "All Projects",
+            "resort": "Resort & Hospitality",
+            "residential": "Residential",
+            "industrial": "Industrial"
+        },
+        "statsLabels": {
+            "view": "View",
+            "capacity": "Capacity",
+            "style": "Style",
+            "scale": "Scale",
+            "greenSpace": "Green Space",
+            "concept": "Concept",
+            "energy": "Energy"
+        },
+        "viewDetails": "View Details",
+        "viewProject": "View Project",
+        "viewAll": "View All Projects",
+        "items": {
+            "seaFlower": {
+                "title": "Sea Flower Resort",
+                "badge": "Hospitality",
+                "description": "A world-class coastal resort paradise, where the pristine beauty of the ocean blends with 5-star amenities. Experience green living and comprehensive healthcare services.",
+                "stats": {
+                    "view": "Ocean Front",
+                    "capacity": "200 Suites"
+                }
+            },
+            "songXanh": {
+                "title": "Song Xanh Village",
+                "badge": "Luxury Villas",
+                "description": "Classic European architecture in the heart of tropical nature. Song Xanh Village offers an elite lifestyle with isolated riverside villas and absolute security.",
+                "stats": {
+                    "style": "European",
+                    "scale": "120 Villas"
+                }
+            },
+            "maiVang": {
+                "title": "Golden Ochna Garden",
+                "badge": "Cultural Heritage",
+                "description": "A unique cultural preservation project honoring the traditional yellow apricot blossom. A serene space imbued with the Vietnamese soul, where heritage values are preserved and promoted.",
+                "stats": {
+                    "greenSpace": "70% Area",
+                    "concept": "Heritage"
+                }
+            },
+            "sunrise": {
+                "title": "Sunrise Industrial Park",
+                "badge": "Industrial High-Tech",
+                "description": "Smart green industrial park with synchronized infrastructure. An ideal destination for high-tech corporations with comprehensive logistics solutions and a sustainable ecosystem.",
+                "stats": {
+                    "scale": "500 Hectares",
+                    "energy": "Renewable"
+                }
+            }
+        },
+        "cta": {
+            "badge": "Partner with Excellence",
+            "title": "Ready to Invest in the Future?",
+            "description": "Download our detailed project portfolio or schedule a consultation with our investment experts to explore opportunities.",
+            "download": "Download Brochure",
+            "contact": "Contact Consultation"
+        }
+    },
+    "testimonial": {
+        "quote": "In every project we undertake, we see beyond the physical structures and technological achievements. We envision communities thriving, industries advancing, and a nation growing stronger through innovation and sustainable development.",
+        "source": "Chairman of the Board"
+    },
+    "cta": {
+        "title": "Ready to Collaborate?",
+        "description": "Contact us today to begin your journey of prosperous investment with Adventure Ocean.",
+        "contactUs": "Contact Now",
+        "viewPortfolio": "View Portfolio"
+    },
+    "blog": {
+        "pageTitle": "Adventure Ocean - Insights & Market Trends",
+        "description": "Latest news and insights from Adventure Ocean",
+        "headerTitle": "Insights & <br class=\"hidden md:block\" /> Market Trends",
+        "headerSubtitle": "Staying ahead of the curve in Real Estate development and High-Tech innovation.",
+        "readMore": "Read More",
+        "sidebar": {
+            "searchPlaceholder": "Search insights...",
+            "mostRead": "Most Read",
+            "subscribeTitle": "Subscribe to News",
+            "subscribeDesc": "Get the latest market updates and company news delivered to your inbox.",
+            "emailPlaceholder": "Your email address",
+            "subscribeButton": "Subscribe",
+            "categories": "Categories"
+        }
+    },
+    "footer": {
+        "description": "Pioneering value through a dual ecosystem of Real Estate and High-Tech innovation.",
+        "navigation": "Navigation",
+        "contact": "Contact",
+        "viAddressLabel": "Địa chỉ trụ sở chính:",
+        "viAddress": "C10/68 ấp 5, Đường Phạm Hùng, Xã Bình Hưng, Thành phố Hồ Chí Minh, Việt Nam",
+        "enAddressLabel": "English Address:",
+        "enAddress": "C10/68 Hamlet 5, Pham Hung Street, Binh Hung Commune, Ho Chi Minh City, Vietnam.",
+        "hotline": "028.77758.666",
+        "email": "info@adventureocean.vn",
+        "website": "http://adventureocean.vn",
+        "fanpage": "https://facebook.com/AdventureOceanJSC",
+        "youtube": "https://youtube.com/@AdventureOceanJSC",
+        "copyright": "© 2026 Adventure Ocean JSC. All rights reserved.",
+        "designedByLabel": "Website designed by",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
+    "about": {
+        "hero": {
+            "badge": "WHO WE ARE",
+            "title": "Pioneering the Future <br /> of <span class=\"text-secondary\">Value Creation</span>",
+            "description": "Adventure Ocean is a multi-disciplinary corporation bridging the gap between luxury real estate and high-tech innovation."
+        },
+        "visionTitle": "Chairman's Vision",
+        "visionQuote": "In every project we undertake, we see beyond the physical structures and technological achievements. We envision communities thriving, industries advancing, and a nation growing stronger through innovation and sustainable development.",
+        "leadership": {
+            "badge": "Our Leaders",
+            "title": "Board of Directors"
+        },
+        "values": {
+            "title": "VISION, MISSION & CORE VALUES",
+            "vision": {
+                "title": "VISION",
+                "content": "To become a leading regional conglomerate, pioneering the trend of integrated investment in High-Value Real Estate and Strategic Technology, serving as a trusted bridge connecting investors to \"blue oceans\" of breakthrough profitability."
+            },
+            "mission": {
+                "title": "MISSION",
+                "customers": {
+                    "title": "For Customers & Investors",
+                    "content": "To deliver ideal living and resort solutions alongside secure, transparent investment opportunities, while unlocking access to high-potential technology projects."
+                },
+                "partners": {
+                    "title": "For Partners",
+                    "content": "To foster mutual growth and share sustainable benefits, grounded in a foundation of innovation and integrity."
+                }
+            },
+            "coreValues": {
+                "title": "CORE VALUES",
+                "integrity": {
+                    "title": "Integrity",
+                    "content": "Ensuring legal transparency and upholding every commitment in both Real Estate and Technology."
+                },
+                "dedication": {
+                    "title": "Dedication",
+                    "content": "Providing wholehearted consulting and prioritizing customer interests above all."
+                },
+                "vision": {
+                    "title": "Vision",
+                    "content": "Possessing strategic foresight to embrace upcoming trends in urban planning and technology."
+                },
+                "speed": {
+                    "title": "Speed",
+                    "content": "Ensuring agility in transactions and rapid technology adoption."
+                }
+            }
+        },
+        "team": [
+            {
+                "name": "Trần Trang Nhã",
+                "role": "Chief Operating Officer (COO)",
+                "email": "Nhatran@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-TrangNha.jpeg",
+                "bio": "Expert with dedication and extensive experience in corporate operations."
+            },
+            {
+                "name": "Nguyễn Thị Tường Vi",
+                "role": "Chief Financial Officer (CFO)",
+                "email": "Vinguyen@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-TuongVi-01.jpeg",
+                "bio": "Managing financial strategies, ensuring sustainable and transparent growth."
+            },
+            {
+                "name": "Võ Mạnh Đạt",
+                "role": "Chief Human Resources Officer (CHRO)",
+                "email": "Datvo@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-ManhDat.jpeg",
+                "bio": "Building corporate culture and developing high-quality human resources."
+            },
+            {
+                "name": "Võ Văn Quang",
+                "role": "Project Director",
+                "email": "Quangvo@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-VanQuang.jpeg",
+                "bio": "Leading key projects with rigorous quality standards and timelines."
+            },
+            {
+                "name": "Võ Trần Duy Trọng",
+                "role": "Chief Marketing Officer (CMO)",
+                "email": "Trongvo@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-DuyTrong.jpeg",
+                "bio": "Brand positioning and crafting creative market approach strategies."
+            },
+            {
+                "name": "Huỳnh Đăng Giang",
+                "role": "Chief Technology Officer (CTO)",
+                "email": "Gianghuynh@adventureocean.vn",
+                "image": "https://soga-ads.s3.ap-southeast-1.amazonaws.com/adventureocean-media/img-nhan-su/compressed-DangGiang.jpeg",
+                "bio": "Pioneering new technology applications and digital transformation for the group."
+            }
+        ],
+        "orgChart": {
+            "title": "PMU Organizational Chart",
+            "level1": {
+                "role": "Chairman - CEO",
+                "desc": "Top Leadership"
+            },
+            "level2": {
+                "title": "Project Management Executive Board",
+                "roles": [
+                    "Design Director",
+                    "Deputy Director of Construction",
+                    "Deputy Finance Director",
+                    "Deputy Director of Investment & LA"
+                ]
+            },
+            "level3": {
+                "title": "Functional Departments & Enterprises",
+                "roles": [
+                    "Design Enterprise",
+                    "Planning Department",
+                    "Construction Engineering Department",
+                    "Accounting Department",
+                    "Materials Department"
+                ]
+            },
+            "level4": {
+                "title": "On-site Construction Teams",
+                "roles": [
+                    "Machinery Team (1-3)",
+                    "Construction Team (1-10)",
+                    "Steelwork Team",
+                    "M&E Team"
+                ]
+            }
+        }
+    },
+    "contact": {
+        "badge": "Get In Touch",
+        "title": "Contact Us",
+        "description": "Ready to explore investment opportunities or discuss partnership possibilities? Our team is here to help.",
+        "form": {
+            "title": "Send Us a Message",
+            "name": "Full Name *",
+            "namePlaceholder": "John Doe",
+            "email": "Email Address *",
+            "emailPlaceholder": "john@example.com",
+            "phone": "Phone Number",
+            "phonePlaceholder": "+84 90 123 4567",
+            "subject": "Subject *",
+            "subjectPlaceholder": "Select a subject",
+            "subjects": {
+                "investment": "Investment Inquiry",
+                "partnership": "Partnership Opportunity",
+                "realEstate": "Real Estate Project",
+                "highTech": "High-Tech Services",
+                "other": "Other"
+            },
+            "message": "Message *",
+            "messagePlaceholder": "Tell us about your inquiry...",
+            "submit": "Send Message",
+            "error": "Please fill in all required fields"
+        },
+        "info": {
+            "title": "Contact Information",
+            "address": "Address",
+            "hotline": "Hotline",
+            "email": "Email",
+            "website": "Website"
+        },
+        "follow": {
+            "title": "Follow Us",
+            "description": "Stay updated with our latest projects and news"
+        }
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "success": "Success!",
+        "readMore": "Read More",
+        "downloadBrochure": "Download Brochure",
+        "newsletter": "Subscribe to Newsletter",
+        "newsletterPlaceholder": "Enter your email",
+        "subscribe": "Subscribe",
+        "thankYou": "Thank you! We will contact you soon.",
+        "invalidEmail": "Please enter a valid email address",
+        "subscribeSuccess": "Successfully subscribed to newsletter!"
+    }
+}

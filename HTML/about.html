@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Adventure Ocean - Leadership &amp; Structure</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1c448e", // Deep Royal Blue
+                        secondary: "#ed1c24", // Red accent
+                        "background-light": "#ffffff",
+                        "background-dark": "#0f172a",
+                        "surface-light": "#f3f4f6",
+                        "surface-dark": "#1e293b",
+                    },
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"],
+                        sans: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.375rem",
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }.perspective-1000 {
+            perspective: 1000px;
+        }
+        .transform-style-3d {
+            transform-style: preserve-3d;
+        }
+        .backface-hidden {
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+        .rotate-y-180 {
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 font-sans transition-colors duration-300">
+<nav class="fixed w-full z-50 bg-white/95 dark:bg-background-dark/95 backdrop-blur-sm border-b border-gray-100 dark:border-gray-800 shadow-sm top-0">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+<div class="flex justify-between items-center h-20">
+<div class="absolute top-0 left-4 sm:left-6 lg:left-8 h-32 z-50 flex items-start">
+<div class="bg-white px-8 py-6 flex items-center gap-3 shadow-xl h-full flex-col justify-center border-b-4 border-secondary">
+<span class="material-icons text-primary text-5xl mb-2">tsunami</span>
+<div class="flex flex-col items-center text-center">
+<span class="font-display font-bold text-xl tracking-wider text-primary uppercase leading-none mb-1">Adventure</span>
+<span class="font-sans font-light text-xs tracking-[0.2em] text-primary uppercase leading-none">Ocean</span>
+</div>
+</div>
+</div>
+<div class="flex-shrink-0 w-48 hidden md:block"></div>
+<div class="hidden md:flex items-center space-x-8 ml-auto">
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-300 transition-colors" href="index.html">Home</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-300 transition-colors" href="#">About Us</a>
+<a class="text-sm font-medium text-primary dark:text-blue-300 border-b-2 border-secondary" href="#">Leadership</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-blue-300 transition-colors" href="#">Careers</a>
+<a class="px-5 py-2.5 bg-primary hover:bg-blue-800 text-white text-sm font-medium rounded transition-colors shadow-lg shadow-blue-900/20" href="#">Contact</a>
+</div>
+<div class="md:hidden flex items-center ml-auto">
+<button class="text-gray-600 dark:text-gray-300 hover:text-primary">
+<span class="material-icons">menu</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<main>
+<section class="relative h-screen min-h-[700px] flex items-center justify-end overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Board of Directors Meeting" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpR74p8vfbyFhPtuQJ_I-0qQLNbGsLdEfo9SQ92GgNMyawF-ITefeKROcrKvnTgawu2hM6E8pZVnunUIaGpQPlQevH87-lr5HkRi5ff927GvGijlYd6NA77CRZ-Ji5W_cuW3JPmh3ZWV39ICS2keD908PLT1YdjqSc_rLaUESFtmdTlRvq0V0WUJhkpxgH_8QGWExm1r97a8f4SdyF6awgiqPxJBWhGCZeTIF61mCjDCrjeoFTAya46u_ae4BiCVp60X0nxp6YrRs"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-white/60 dark:to-background-dark/80"></div>
+</div>
+<div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-end">
+<div class="bg-white/90 dark:bg-surface-dark/95 backdrop-blur-md p-8 md:p-12 max-w-xl lg:max-w-2xl shadow-2xl border-l-8 border-secondary rounded-lg transform lg:translate-y-8">
+<div class="flex items-center gap-3 mb-6">
+<div class="h-px w-8 bg-secondary"></div>
+<span class="text-secondary font-bold tracking-widest uppercase text-xs">From the Desk of the Chairman</span>
+</div>
+<h1 class="font-display text-4xl md:text-5xl font-bold text-primary dark:text-white mb-8">Chairman's Vision</h1>
+<div class="prose prose-lg text-gray-600 dark:text-gray-300 font-serif leading-relaxed italic border-l-2 border-gray-200 dark:border-gray-700 pl-6 mb-8">
+<p class="mb-4">"At Adventure Ocean, we don't just anticipate the future; we engineer it. Our dual-ecosystem strategy is not merely a business model—it is a commitment to resilience and innovation."</p>
+<p>"By harmonizing the stability of Real Estate assets with the explosive potential of Semiconductor technology, we are charting a course for sustainable prosperity that few dare to navigate."</p>
+</div>
+<div class="flex items-center gap-5 mt-4">
+<div class="w-16 h-16 rounded-full overflow-hidden border-2 border-white shadow-md">
+<img alt="Chairman Portrait" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoNiFmTFIZw3sQd2rU23LnguP6bJaUHx2sQZqHAe9yYo0T_tsJMesRHeGdsO9QS49TQFQXDzs562Xw0SuMJkLvwyj1G81SIFb-c50wCm2Vjaz6xpqBcuK7zNwlyGZgqBEnhrw67yM7BqOGTNkV3U44M4ah8q9p6S5BAKHDAYk5Ac0fXnDwu8oEAZh8ukmTkgJUSIAVZdEGPbOdewMVr1ucAJhNfdZcnPSQPYVggVzsDlZwM4iW9VAiBmSp1hkbNz5yE6b_UjGm_M4"/>
+</div>
+<div>
+<img alt="Signature" class="h-8 opacity-70 mb-1 dark:invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFdKR2xDQoPvTDZx3fXwB8zFC70l6I7RfXxjsXLzP0WhvgFrKWDipGDdU3mnjFWlGtqWfjNePW0dF5hW3E56H2l3TxdTDch3-M_rkz1VHSp_LYxCNMbXwaIix7MZPlysQmzwviNOmWd6_GaiQqvfcxeK2sjxIpKF-iYxEBzMgfMjRLjkf5l9qBSBBSbuxxGEJ7uBDmJQCmWPJk3_gMUL05eqQ3GDhjx2nu38AN8wDeS27IITZJLBu5BQe6C4uttwNBfYh4v18VfQs"/>
+<p class="text-base font-bold text-primary dark:text-blue-400">Nguyen Van A</p>
+<p class="text-xs text-gray-500 uppercase tracking-wider">Founder &amp; Chairman</p>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+<span class="material-icons text-white text-4xl shadow-sm">keyboard_arrow_down</span>
+</div>
+</section>
+<section class="py-24 bg-surface-light dark:bg-surface-dark relative">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<span class="text-secondary font-bold tracking-widest uppercase text-xs">Our Leadership</span>
+<h2 class="font-display text-4xl font-bold text-primary dark:text-white mt-2 mb-4">Meet Our Experts</h2>
+<div class="w-24 h-1 bg-gray-300 dark:bg-gray-700 mx-auto"></div>
+<p class="mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">The visionaries steering the dual engines of Adventure Ocean's growth.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="group h-[450px] perspective-1000 cursor-pointer">
+<div class="relative w-full h-full transition-transform duration-700 transform-style-3d group-hover:rotate-y-180 shadow-xl rounded-xl">
+<div class="absolute inset-0 w-full h-full bg-white dark:bg-gray-800 backface-hidden rounded-xl overflow-hidden shadow-lg">
+<img alt="Sarah Tran" class="w-full h-full object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0GGF0OO_Jrf6AnjSgSk_eJUy7dr4JEsC4RXh7zWlsUBudqMx6OvXB53iYXDVFDn-bWXh0kFIJVdj7TgvYPDBZg6z8h_xoiS-Ln83dpZ6V1Dex1TDIaJd--iHzpu1XuwwseTDv3YBQ3CEhqx3V87dHtWt_MwO0VMb8CagLka_PdDOCv-xIaX2Oj032U1a2j-itFCg451Ir8xV0wDtvhGD_ZIIppV5xUrJKPirddM078b_QLkeWY_AMLDoyU0x7dF7tbFXweBq6Jzs"/>
+<div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-primary/90 to-transparent p-6 pt-24">
+<h3 class="text-xl font-bold text-white font-display">Sarah Tran</h3>
+<p class="text-secondary text-sm font-medium uppercase tracking-wider font-sans">CEO, Real Estate</p>
+</div>
+</div>
+<div class="absolute inset-0 w-full h-full bg-primary text-white p-8 backface-hidden rotate-y-180 rounded-xl flex flex-col justify-center items-center text-center shadow-inner border-2 border-secondary">
+<span class="material-icons text-4xl mb-4 text-secondary">apartment</span>
+<h3 class="text-2xl font-bold font-display mb-1">Sarah Tran</h3>
+<p class="text-blue-200 text-xs uppercase tracking-widest mb-6">Master Planner</p>
+<p class="text-sm leading-relaxed text-blue-50 font-sans">
+                                    With over 15 years in urban development, Sarah leads our luxury coastal projects. She ensures every structure harmonizes with nature while maximizing investor yield.
+                                </p>
+<div class="mt-8 flex gap-3">
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary transition-colors" href="#"><span class="material-icons text-sm">email</span></a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary transition-colors" href="#"><span class="material-icons text-sm">link</span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="group h-[450px] perspective-1000 cursor-pointer">
+<div class="relative w-full h-full transition-transform duration-700 transform-style-3d group-hover:rotate-y-180 shadow-xl rounded-xl">
+<div class="absolute inset-0 w-full h-full bg-white dark:bg-gray-800 backface-hidden rounded-xl overflow-hidden shadow-lg">
+<img alt="David Chen" class="w-full h-full object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpb3ruFAtTVAPefX4BRgQAz-aZg86a1Fcxz0A04Kju8MHl8GLhrYSwECHzOrtouDRdFhlQExVauvr6o2EI9YxLlpQYn_J13VhSKDZKL2GJGVbi78lZXvwhpjCyY15cCZ-1LYqIwtD9MPgRSOTQ_3k9AX81OKdfiPZphXOhTGtirS9AGERXYGPb9ifVJ-jDMfcF41CH_OkDnF-Fejc4K4WzbdklpD4HqAP300CRPh62jkGwYjxyAIeSy-c7YwHaZhY_Ij8_JVUuKpc"/>
+<div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-primary/90 to-transparent p-6 pt-24">
+<h3 class="text-xl font-bold text-white font-display">David Chen</h3>
+<p class="text-secondary text-sm font-medium uppercase tracking-wider font-sans">CTO, High-Tech</p>
+</div>
+</div>
+<div class="absolute inset-0 w-full h-full bg-gray-900 text-white p-8 backface-hidden rotate-y-180 rounded-xl flex flex-col justify-center items-center text-center shadow-inner border-2 border-blue-400">
+<span class="material-icons text-4xl mb-4 text-blue-400">memory</span>
+<h3 class="text-2xl font-bold font-display mb-1">David Chen</h3>
+<p class="text-gray-400 text-xs uppercase tracking-widest mb-6">Chip Architect</p>
+<p class="text-sm leading-relaxed text-gray-300 font-sans">
+                                    A veteran of Silicon Valley, David oversees our semiconductor division. His focus is on next-gen wafer efficiency and CNC precision integration.
+                                </p>
+<div class="mt-8 flex gap-3">
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-500 transition-colors" href="#"><span class="material-icons text-sm">email</span></a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-500 transition-colors" href="#"><span class="material-icons text-sm">link</span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="group h-[450px] perspective-1000 cursor-pointer">
+<div class="relative w-full h-full transition-transform duration-700 transform-style-3d group-hover:rotate-y-180 shadow-xl rounded-xl">
+<div class="absolute inset-0 w-full h-full bg-white dark:bg-gray-800 backface-hidden rounded-xl overflow-hidden shadow-lg">
+<img alt="Elena Rossi" class="w-full h-full object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFBj-Ex1HnPilDjQ79QT41TBGk7XnmWSvNn9h6Z9axG_y_5lVX50rfTisAOVvGDBUwAR95yyuRXcXA3SR0K6xZC3xcUNH51S484UEKAfqsqLO13-x2eaMW4VZx5oI26vsUKhkfeXvZUj2g_sogQHUfSo_bRdMSEuwQgy1vGwYnKJe3WY4JtRRUB9DJTjSk4TxOfFjoDpKx7CFezvZvwm3bd_e-oGFqZDPJ1CUepXL9SlxjTEsavUOozk0LpwUayy79ytd8aIcgkRE"/>
+<div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-primary/90 to-transparent p-6 pt-24">
+<h3 class="text-xl font-bold text-white font-display">Elena Rossi</h3>
+<p class="text-secondary text-sm font-medium uppercase tracking-wider font-sans">CFO</p>
+</div>
+</div>
+<div class="absolute inset-0 w-full h-full bg-white text-gray-800 p-8 backface-hidden rotate-y-180 rounded-xl flex flex-col justify-center items-center text-center shadow-inner border-2 border-primary">
+<span class="material-icons text-4xl mb-4 text-primary">account_balance</span>
+<h3 class="text-2xl font-bold font-display mb-1">Elena Rossi</h3>
+<p class="text-gray-500 text-xs uppercase tracking-widest mb-6">Financial Strategy</p>
+<p class="text-sm leading-relaxed text-gray-600 font-sans">
+                                    Elena manages the complex capital flows between our real estate assets and tech investments, ensuring liquidity and long-term fiscal health.
+                                </p>
+<div class="mt-8 flex gap-3">
+<a class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:bg-primary hover:text-white transition-colors" href="#"><span class="material-icons text-sm">email</span></a>
+<a class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:bg-primary hover:text-white transition-colors" href="#"><span class="material-icons text-sm">link</span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="group h-[450px] perspective-1000 cursor-pointer">
+<div class="relative w-full h-full transition-transform duration-700 transform-style-3d group-hover:rotate-y-180 shadow-xl rounded-xl">
+<div class="absolute inset-0 w-full h-full bg-white dark:bg-gray-800 backface-hidden rounded-xl overflow-hidden shadow-lg">
+<img alt="James Minh" class="w-full h-full object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0JkAjiN2JBmWXRY_s0yx3BIbgk83XLPiswU1Qp6VHW_nQFON-9wJV45vdfwJkb2Rvraq94mdjcsDM9fXsUPXOKQF39f5S1QXni4m8ReviEQ4UTwFOfQBcq0x4PFd18hhGScqDMkErdLo9er0oAoIbDvs0RLNoW56uBCgWnRL8KhE8ewwL1ger0JwEX1vfaeqH9AjCvDngUZzd674dpsO9xVVdu3B6oWQyU-_AEj2o5lKMOPQZo1NLqZ9IGKEPa4_dSoRTDmBMYaM"/>
+<div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-primary/90 to-transparent p-6 pt-24">
+<h3 class="text-xl font-bold text-white font-display">James Minh</h3>
+<p class="text-secondary text-sm font-medium uppercase tracking-wider font-sans">Head of Operations</p>
+</div>
+</div>
+<div class="absolute inset-0 w-full h-full bg-secondary text-white p-8 backface-hidden rotate-y-180 rounded-xl flex flex-col justify-center items-center text-center shadow-inner border-2 border-white">
+<span class="material-icons text-4xl mb-4 text-white">settings</span>
+<h3 class="text-2xl font-bold font-display mb-1">James Minh</h3>
+<p class="text-red-200 text-xs uppercase tracking-widest mb-6">Execution &amp; Scale</p>
+<p class="text-sm leading-relaxed text-red-50 font-sans">
+                                    James is the bridge between strategy and reality. He oversees the daily operations across both campuses, ensuring the "Speed" value is met daily.
+                                </p>
+<div class="mt-8 flex gap-3">
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white hover:text-secondary transition-colors" href="#"><span class="material-icons text-sm">email</span></a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white hover:text-secondary transition-colors" href="#"><span class="material-icons text-sm">link</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-gray-50 dark:bg-background-dark border-t border-gray-200 dark:border-gray-800 overflow-hidden">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-20">
+<span class="text-secondary font-bold tracking-widest uppercase text-xs">Organization</span>
+<h2 class="font-display text-4xl font-bold text-primary dark:text-white mt-2">Group Hierarchy</h2>
+<p class="mt-4 text-gray-500 max-w-2xl mx-auto">A streamlined structure designed for agility, connecting our high-level strategy to specialized execution.</p>
+</div>
+<div class="w-full overflow-x-auto pb-16 px-4">
+<div class="min-w-[800px] flex flex-col items-center gap-16">
+<div class="relative group cursor-pointer z-30">
+<div class="w-72 bg-primary text-white p-6 text-center border-2 border-blue-900 rounded-lg shadow-[8px_8px_0_0_#0f2652] transform transition-all duration-200 group-hover:translate-x-[4px] group-hover:translate-y-[4px] group-hover:shadow-[4px_4px_0_0_#0f2652] relative">
+<div class="absolute -top-3 -right-3 w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-white text-xs font-bold border border-white z-10">01</div>
+<span class="material-icons text-4xl mb-2 text-blue-200 opacity-80">gavel</span>
+<h3 class="font-bold text-xl font-display tracking-wide">Board of Directors</h3>
+<p class="text-xs text-blue-200 uppercase mt-1 tracking-wider">Strategic Oversight</p>
+</div>
+<div class="absolute left-1/2 -bottom-16 w-1 h-16 bg-gray-300 dark:bg-gray-700 transform -translate-x-1/2"></div>
+</div>
+<div class="relative group cursor-pointer z-20">
+<div class="w-72 bg-white dark:bg-surface-dark text-primary dark:text-white p-6 text-center border-2 border-primary rounded-lg shadow-[8px_8px_0_0_#1c448e] transform transition-all duration-200 group-hover:translate-x-[4px] group-hover:translate-y-[4px] group-hover:shadow-[4px_4px_0_0_#1c448e] relative">
+<div class="absolute -top-3 -right-3 w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-white text-xs font-bold border border-white z-10">02</div>
+<span class="material-icons text-4xl mb-2 text-primary dark:text-blue-400">person</span>
+<h3 class="font-bold text-xl font-display tracking-wide">CEO Office</h3>
+<p class="text-xs text-gray-500 uppercase mt-1 tracking-wider">Executive Management</p>
+</div>
+<div class="absolute left-1/2 -bottom-16 w-1 h-16 bg-gray-300 dark:bg-gray-700 transform -translate-x-1/2"></div>
+<div class="absolute left-1/2 -bottom-16 w-[450px] h-1 bg-gray-300 dark:bg-gray-700 transform -translate-x-1/2 translate-y-16"></div>
+<div class="absolute left-1/2 -bottom-28 w-[450px] h-12 border-l border-r border-gray-300 dark:border-gray-700 transform -translate-x-1/2 translate-y-4"></div>
+</div>
+<div class="flex gap-24 justify-center items-start z-10 w-full">
+<div class="relative group cursor-pointer w-72">
+<div class="bg-white dark:bg-surface-dark p-6 text-center border-2 border-secondary rounded-lg shadow-[8px_8px_0_0_#ed1c24] transform transition-all duration-200 group-hover:translate-x-[4px] group-hover:translate-y-[4px] group-hover:shadow-[4px_4px_0_0_#ed1c24] relative h-full">
+<div class="absolute -top-3 -right-3 w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center text-white text-xs font-bold border border-white z-10">RE</div>
+<span class="material-icons text-4xl mb-3 text-secondary">domain</span>
+<h3 class="font-bold text-lg text-gray-900 dark:text-white font-display mb-2">Real Estate Block</h3>
+<div class="h-px w-12 bg-gray-200 mx-auto mb-3"></div>
+<ul class="text-sm text-left text-gray-600 dark:text-gray-400 space-y-2">
+<li class="flex items-start gap-2"><span class="material-icons text-xs mt-1 text-secondary">arrow_right</span>Project Development</li>
+<li class="flex items-start gap-2"><span class="material-icons text-xs mt-1 text-secondary">arrow_right</span>Sales &amp; Marketing</li>
+<li class="flex items-start gap-2"><span class="material-icons text-xs mt-1 text-secondary">arrow_right</span>Asset Management</li>
+</ul>
+</div>
+</div>
+<div class="relative group cursor-pointer w-72">
+<div class="bg-white dark:bg-surface-dark p-6 text-center border-2 border-blue-500 rounded-lg shadow-[8px_8px_0_0_#3b82f6] transform transition-all duration-200 group-hover:translate-x-[4px] group-hover:translate-y-[4px] group-hover:shadow-[4px_4px_0_0_#3b82f6] relative h-full">
+<div class="absolute -top-3 -right-3 w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center text-white text-xs font-bold border border-white z-10">HT</div>
+<span class="material-icons text-4xl mb-3 text-blue-500">precision_manufacturing</span>
+<h3 class="font-bold text-lg text-gray-900 dark:text-white font-display mb-2">High-Tech Block</h3>
+<div class="h-px w-12 bg-gray-200 mx-auto mb-3"></div>
+<ul class="text-sm text-left text-gray-600 dark:text-gray-400 space-y-2">
+<li class="flex items-start gap-2"><span class="material-icons text-xs mt-1 text-blue-500">arrow_right</span>Semiconductor R&amp;D</li>
+<li class="flex items-start gap-2"><span class="material-icons text-xs mt-1 text-blue-500">arrow_right</span>CNC Production</li>
+<li class="flex items-start gap-2"><span class="material-icons text-xs mt-1 text-blue-500">arrow_right</span>Quality Assurance</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-primary text-white border-t-4 border-secondary">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-icons text-3xl">tsunami</span>
+<div class="flex flex-col">
+<span class="font-display font-bold text-lg tracking-wider uppercase leading-none">Adventure</span>
+<span class="font-sans font-light text-xs tracking-[0.2em] opacity-80 uppercase leading-none">Ocean</span>
+</div>
+</div>
+<p class="text-blue-100 text-sm leading-relaxed mb-4">
+                        Pioneering value through a dual ecosystem of Real Estate and High-Tech innovation.
+                    </p>
+<div class="flex space-x-4">
+<a class="text-blue-200 hover:text-white" href="#"><span class="material-icons text-lg">facebook</span></a>
+<a class="text-blue-200 hover:text-white" href="#"><span class="material-icons text-lg">language</span></a>
+<a class="text-blue-200 hover:text-white" href="#"><span class="material-icons text-lg">email</span></a>
+</div>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg mb-4">Navigation</h4>
+<ul class="space-y-2 text-sm text-blue-100">
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="index.html">Home</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#about">About Us</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#fields">Core Fields</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">Leadership</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg mb-4">Services</h4>
+<ul class="space-y-2 text-sm text-blue-100">
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">Resort Real Estate</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">Commercial Real Estate</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">Semiconductors</a></li>
+<li><a class="hover:text-white hover:underline decoration-secondary underline-offset-4" href="#">CNC Manufacturing</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg mb-4">Contact</h4>
+<ul class="space-y-2 text-sm text-blue-100">
+<li class="flex items-start gap-2">
+<span class="material-icons text-sm mt-1">location_on</span>
+<span>123 Ocean Drive, Financial District, Ho Chi Minh City</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-icons text-sm">phone</span>
+<span>+84 28 1234 5678</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-icons text-sm">email</span>
+<span>contact@adventure-ocean.com</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="bg-blue-900/50 py-4">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-xs text-blue-300">
+<p>© 2023 Adventure Ocean JSC. All rights reserved.</p>
+<div class="space-x-4 mt-2 md:mt-0">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
